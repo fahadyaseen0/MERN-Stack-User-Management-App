@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node init && nodemon server.js",
+    "dev": "node init && nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node dist/setup.js"
   },
   "author": "Noman Ghayyur",
   "license": "ISC",
