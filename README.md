@@ -110,10 +110,3 @@ The backend, located in the `backend` directory, consists of the server, models,
 - `PATCH /api/user/updateuser/:id`: To update user
 - `DELETE /api/user/deleteuser/:id`: To delete user
 
-## Contributing
-
-If you find a bug or have a feature request, please [open an issue](https://github.com/[nomanghayyur]/[MERN-APP]/issues).
-
----
-
-Feel free to customize this template further to accurately represent your MERN project and its specific architecture. Ensure that the instructions for setting up and running the frontend and backend parts are clear and concise. Good luck with your project!
